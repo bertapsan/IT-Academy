@@ -1,0 +1,62 @@
+body {
+  font-family: $font-main;
+}
+
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  &__item {
+    width: 20%;
+    height: 100vh;
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    overflow: hidden;
+    position: absolute;
+    &:before {
+      z-index: 1;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $color-white;
+      opacity: 0.05;
+      -webkit-transform-origin: center center;
+      transform-origin: center center;
+      -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+      transform: skew(30deg) scaleY(1) translate(0, 0);
+      transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    &:hover:before {
+      -webkit-transform: skew(0deg) scaleY(1) translate(0, 0);
+      transform: skew(0deg) scaleY(1) translate(0, 0);
+    }
+  }
+}
+
+.item1 {
+  background-color: $color-one;
+  left: 0;
+}
+.item2 {
+  background-color: $color-two;
+  left: 20vw;
+}
+.item3 {
+  background-color: $color-three;
+  left: 40vw;
+}
+.item4 {
+  background-color: $color-four;
+  left: 60vw;
+}
+.item5 {
+  background-color: $color-five;
+  left: 80vw;
+}
