@@ -27,8 +27,7 @@ This is my solution to the Sprint 2 requested task.
 
 ### Screenshot
 
-![](./images/Desktop-screenshot.jpg)
-![](./images/Mobile-screenshot.jpg)
+![](./images/screenshot.jpg)
 
 ### Links
 
