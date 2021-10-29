@@ -19,7 +19,7 @@ A:visited {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url("../../images/Diseño sin título (23).jpg");
+  background-image: url('../../images/Header-background.jpg');
   border-radius: 4px;
 }
 
@@ -119,17 +119,17 @@ A:visited {
 }
 
 .article1 {
-  background-image: url("../../images/article-1.jpg");
+  background-image: url('../../images/article-1.jpg');
   border-radius: 4px;
 }
 
 .article2 {
-  background-image: url("../../images/article-2.jpg");
+  background-image: url('../../images/article-2.jpg');
   border-radius: 4px;
 }
 
 .article3 {
-  background-image: url("../../images/article-3.jpg");
+  background-image: url('../../images/article-3.jpg');
   border-radius: 4px;
 }
 
@@ -213,7 +213,7 @@ A:visited {
 body {
   height: 100vh;
   margin: 20px;
-  font-family: "Noto Sans Display", sans-serif;
+  font-family: 'Noto Sans Display', sans-serif;
   align-items: center;
 }
 
